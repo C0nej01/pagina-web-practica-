@@ -1,0 +1,90 @@
+html{
+    /* MATHEW FORMULE */
+    font-size: calc(15px + 0.390625vw);
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444444;
+}
+
+
+header{
+    padding: 4vw;
+    text-align: center;
+    background-color: springgreen;
+}
+header h1{
+    font-size: 2rem;
+}
+header h4{
+    color: #7e7e7e;
+    font-size: 1.2rem;
+}
+
+nav{
+    background: #1b1b1b;
+    overflow: hidden;
+    text-align: center;
+}
+nav a{
+    padding: .5rem 1rem;
+    float: left;
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+
+    transition: all .2s ease-in-out;
+}
+nav a:hover{
+    color: #000;
+    background-color: lightgreen;
+}
+
+
+/* COLUMNS */
+main{
+    margin: 3rem 1rem;
+}
+aside{
+    width: 20%;
+    float: left;
+}
+section{
+    width: 60%;
+    float: left;
+}
+article{
+    width: 20%;
+    float: left;
+}
+
+footer{
+    padding: 1rem 2rem;
+    clear: both;
+    background: #444444;
+    text-align: center;
+}
+footer > *{
+    color: #d6d6d6;
+}
+
+/* TABLETS */
+@media screen and (max-width: 700px){
+    aside,section,article{
+        width: 100%;
+        margin-block: 2rem;
+    }
+}
+/* MOBILE */
+@media screen and (max-width: 400px){
+    nav a{
+        width: 100%;
+    }
+}
