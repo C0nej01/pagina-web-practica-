@@ -5,6 +5,7 @@ html{
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: #e2e2e2;
 }
 /* reset */
 *{
@@ -91,4 +92,34 @@ footer h2{
     nav a{
         width: 100%;
     }
+}
+
+
+
+
+/* COMPONENTS */
+.card{
+    background: #ffffff;
+    box-shadow: 2px 2px 5px rgb(86, 86, 86);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    gap: 1rem
+}
+.--row{
+    display: flex;
+    flex-direction: row;
+}
+.--col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img{
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    /* object-fit: cover; */
+    border-radius: 2rem;
 }
